@@ -15,9 +15,7 @@ $this->need('header.php');?>
         <main class="mdl-layout__content" id="main">
             <div id="top"></div>
             <!-- Sidebar hamburger button -->
-            <button class="MD-burger-icon sidebar-toggle">
-              <span class="MD-burger-layer"></span>
-            </button>
+          <button class="MD-burger-icon sidebar-toggle" style="display: initial;"> <span class="MD-burger-layer"></span> </button>
 
             <div class="demo-blog__posts mdl-grid">
 
@@ -263,7 +261,7 @@ $this->need('header.php');?>
 
                             <?php endwhile; ?>
 
-                            <nav class="demo-nav mdl-cell mdl-cell--12-col">
+                            <nav class="demo-nav mdl-cell mdl-cell--12-col" color="#123456">
                                 <?php $this->pageLink(
                         '<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
                             <i class="material-icons" role="presentation">arrow_back</i>

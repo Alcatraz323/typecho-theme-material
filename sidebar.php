@@ -236,15 +236,16 @@
         <div class="sidebar-divider"></div>
 
         <!-- Sidebar bottom text -->
-        <a href="https://github.com/viosey/typecho-theme-material" target="_blank" class="sidebar-footer-text-a">
+        <a href="http://dre.ink">
             <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div">
-                <?php if ($this->options->langis == '0'): ?> Theme - Material
-                <?php elseif ($this->options->langis == '1'): ?> 主题 - Material
-                <?php endif; ?>
-                <span class="sidebar-badge badge-circle">i</span>
+               龙红瞳
             </div>
         </a>
-
+        <a href="https://github.com/viosey">
+            <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div">
+               Viosey
+            </div>
+        </a>
         <?php if (!empty($this->options->switch) && in_array('ShowUpyun', $this->options->switch)) : ?>
         <div id="upyun-logo">
             <a href="https://www.upyun.com/" target="_blank">

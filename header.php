@@ -35,7 +35,10 @@
     	<meta property="og:type"          content="website" />
     	<meta property="og:title"         content="<?php $this->archiveTitle(); ?>" />
         <meta property="og:description"   content="Your description" />
+ <link rel="stylesheet" type="text/css" media="all" href="http://alcatrazdev.ml/usr/themes/typecho_material/css/materialize.css" />
 
+ <script src="http://alcatrazdev.ml/usr/themes/typecho_material/js/materialize.js"></script>
+ <script src="http://alcatrazdev.ml/usr/themes/typecho_material/js/materialize.min.js"></script>
         <?php $this->header(); ?>
 
         <!-- Material style -->
@@ -172,9 +175,7 @@
                 .demo-blog .something-else .mdl-card__supporting-text{
                     background-color: #fff;
                 }
-                .MD-burger-layer{
-                    background-color: #666;
-                }
+               
                 .demo-blog .demo-blog__posts>.demo-nav,
                 .demo-nav a,
                 .demo-blog--blogpost .demo-back{
